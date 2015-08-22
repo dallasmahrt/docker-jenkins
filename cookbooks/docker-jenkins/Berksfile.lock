@@ -2,8 +2,17 @@ DEPENDENCIES
   docker-jenkins
     path: .
     metadata: true
+  python (~> 1.4.6)
 
 GRAPH
+  build-essential (2.2.3)
   docker (0.40.3)
   docker-jenkins (0.1.2)
     docker (~> 0.40.3)
+    python (~> 1.4.6)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  yum (3.6.3)
+  yum-epel (0.6.2)
+    yum (~> 3.2)

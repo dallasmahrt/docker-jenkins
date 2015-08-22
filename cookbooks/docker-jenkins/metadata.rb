@@ -7,3 +7,4 @@ long_description 'Installs/Configures docker-jenkins'
 version          '0.1.2'
 
 depends 'docker', '~> 0.40.3'
+depends 'python', '~> 1.4.6'
